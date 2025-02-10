@@ -65,11 +65,12 @@ query_id.../user...
 
 - Wallets generator: [Link](https://github.com/MeoMunDep/Automatic-Ultimate-Create-Wallets-for-Airdrop)
 
+- Ton address
 
 ```txt - wallet address
-abc...xyz
-abc...xyz
-abc...xyz
+U...
+U...
+U...
 ```
 
 ### 4. `proxies.txt` 🌐 - Proxy is an option. If you have one, fill it in; otherwise, leave it blank.
