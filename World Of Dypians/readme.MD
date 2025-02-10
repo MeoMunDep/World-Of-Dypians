@@ -42,14 +42,15 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 
 ```json
 {
-    "limit": 100,
-    "countdown": 300,
-    "country_time": "en-US",
-    "doTasks": true,
-    "delayEachAccount": [1, 81],
-    "referralCode": "ed3812b2-022a-48d9-9f22-46e80d12da6e"
-  }
-  
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "doTasks": true,
+  "delayEachAccount": [1, 1],
+  "referralCode": "ed3812b2-022a-48d9-9f22-46e80d12da6e",
+  "connectWallets": true
+}
+
 ```
 
 ### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
