@@ -1,6 +1,6 @@
 📞 Contact
 
-> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux.)
+> [Termux guides if you run on mobile](https://github.com/MeoMunDep/Guides-for-using-my-script-on-termux)
 
 
 > If you encounter any issues or have questions, feel free to reach out:
@@ -44,7 +44,6 @@ Download Node.js and npm here: [Download Link](https://t.me/KeoAirDropFreeNe/257
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
   "doTasks": true,
   "delayEachAccount": [1, 1],
   "referralCode": "ed3812b2-022a-48d9-9f22-46e80d12da6e",
