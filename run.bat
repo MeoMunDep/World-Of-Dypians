@@ -54,17 +54,14 @@ cls
 echo Creating configuration files...
 
 if not exist configs.json (
-    echo {> configs.json
-    echo   "rotateProxy": false,>> configs.json
-    echo   "skipInvalidProxy": false,>> configs.json
-    echo   "proxyRotationInterval": 2,>> configs.json
-    echo   "delayEachAccount": [5, 8],>> configs.json
-    echo   "timeToRestartAllAccounts": 300,>> configs.json
-    echo   "howManyAccountsRunInOneTime": 100,>> configs.json
-    echo   "connectWallets": true, >> configs.json
-    echo   "doTasks": true,>> configs.json
-    echo   "referralCode": "">> configs.json
-    echo }>> configs.json
+    > configs.json echo {
+    >> configs.json echo   "limit": 100,
+    >> configs.json echo   "countdown": 86400,
+    >> configs.json echo   "doTasks": true,
+    >> configs.json echo   "delayEachAccount": [1, 1],
+    >> configs.json echo   "referralCode": "ed3812b2-022a-48d9-9f22-46e80d12da6e",
+    >> configs.json echo   "connectWallets": true
+    >> configs.json echo }
     echo Created configs.json
 )
 
