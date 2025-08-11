@@ -32,7 +32,7 @@ create_default_configs() {
 {
   "limit": 100,
   "countdown": 300,
-  "country_time": "en-US",
+  "connectWallets": true,
   "doTasks": true,
   "delayEachAccount": [1, 81],
   "referralCode": "ed3812b2-022a-48d9-9f22-46e80d12da6e"
